@@ -11,4 +11,5 @@ virtualenv --no-site-packages ~/.looplingo/env
 
 ## make sure fab is easy to run
 echo "alias fab=\"~/.looplingo/env/bin/python ~/.looplingo/env/bin/fab\"" >> ~/.bashrc
+source ~/.bashrc
 curl -o ~/.looplingo/conf/fabric_locals.py "https://raw.githubusercontent.com/LoopLingo/vbox_setup/master/fabric_locals.py"
