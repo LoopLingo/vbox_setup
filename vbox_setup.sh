@@ -6,3 +6,5 @@ iface eth1 inet static
 " >> /etc/network/interfaces
 
 ifup eth1
+
+echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
