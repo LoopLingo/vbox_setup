@@ -1,5 +1,5 @@
 development = {
-    "url_base": "local-dev.looplingo.com",
+    "url_base": "local-dev.lingopoints.com",
     }
 _base = {
     "ssh_key": "~/.ssh/looplingo_vbox_ssh",
