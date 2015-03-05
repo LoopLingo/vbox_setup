@@ -15,5 +15,5 @@ echo "alias fab=\"~/.looplingo/env/bin/python ~/.looplingo/env/bin/fab\"" >> ~/.
 source ~/.bashrc
 curl -o ~/.looplingo/conf/fabric_locals.py "https://raw.githubusercontent.com/LoopLingo/vbox_setup/master/fabric_locals.py"
 
-sudo -s "echo \"if [ \\\"\\\${BASH-no}\\\" != \\\"no\\\" ]; then [ -r ~/.bashrc ] && source ~/.bashrc; fi\" >> /etc/profile"
-sudo -s "echo \"192.168.56.2 local-dev.lingopoints.com\" >> /etc/hosts"
+sudo su -c "echo \"if [ \\\"\\\${BASH-no}\\\" != \\\"no\\\" ]; then [ -r ~/.bashrc ] && source ~/.bashrc; fi\" >> /etc/profile"
+sudo su -c "echo \"192.168.56.2 local-dev.lingopoints.com\" >> /etc/hosts"
